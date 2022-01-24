@@ -1,4 +1,4 @@
-package chapter01.level01.ex1008;
+package chapter01.level08.ex1008;
 
 import java.util.Scanner;
 

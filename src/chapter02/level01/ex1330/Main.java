@@ -1,4 +1,4 @@
-package chapter01.level01.ex2588;
+package chapter02.level01.ex1330;
 
 import java.util.Scanner;
 
@@ -11,9 +11,11 @@ public class Main {
 		int a = scanner.nextInt();
 		int b = scanner.nextInt();
 		
-		System.out.println(a * (b % 10));
-		System.out.println(a * ((b / 10) % 10));
-		System.out.println(a * (b / 100));
-		System.out.println(a * b);
+		if (a > b) 
+			System.out.println(">");
+		else if (a < b)
+			System.out.println("<");
+		else
+			System.out.println("==");
 	}
 }

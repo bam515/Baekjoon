@@ -1,4 +1,4 @@
-package chapter01.level01.ex10171;
+package chapter01.level03.ex10171;
 
 public class Main {
 
